@@ -1,0 +1,36 @@
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  max-width: 300px;
+  border: 2px solid black;
+  margin: 10px;
+  align-items: center;
+}
+
+
+.singleCard {
+  display:flex;
+  flex-direction: column;
+  max-width: 300px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.detailsButton {
+  max-width: 30%;
+  margin-top: 10px;
+}
+
+img {
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 250px;
+  min-height: 250px;
+}
